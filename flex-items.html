@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create flexbox and growth/shrink</title>
+    <style>
+        .flex-container{
+            width:800px;
+            height:400px;
+            display:flex;
+            background-color: lightcoral;
+            gap:20px;
+        }
+        .flex-container>div{
+            width:100px;
+            height:100px;
+            background-color: aqua;
+            color:white;
+        }
+
+        .flex-items-1{
+            flex-grow: 1;
+        }
+        .flex-items-2{
+            flex-grow: 2;
+        }
+        .flex-items-3{
+            flex-grow: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-items-1">1</div>
+        <div class="flex-items-2">2</div>
+        <div class="flex-items-3">3</div>
+
+    </div>
+    
+</body>
+</html>

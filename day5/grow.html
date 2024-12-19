@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>let it grow</title>
+
+    <style>
+        .container {
+        display: flex;
+        background-color: #444;
+        padding: 10px;
+        color: white;
+        }
+        .logo, .nav, .search {
+        padding: 10px;
+        }
+        .logo {
+        flex-grow: 1; /* Grows moderately */
+        
+        
+        
+        background-color: #f44336;
+        }
+        .nav {
+        flex-grow: 3; /* Grows the most to take up space */
+        background-color: #2196f3;
+        }
+        .search {
+        flex-grow: 1; /* Grows moderately */
+        background-color: #4caf50;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">Logo</div>
+        <div class="nav">Navigation Menu</div>
+        <div class="search">Search</div>
+        </div>
+</body>
+</html>
